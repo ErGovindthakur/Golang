@@ -6,6 +6,13 @@ import "fmt"
 
 func main(){
 
+	var n int
+	fmt.Print("Enter you number to reverse -:")
+	fmt.Scan(&n)
+	var result int = data(n)
+
+	fmt.Println("Reversed num -: ", result)
+	 return
 	// for loop but while style
 
 	fmt.Println("For loop but while style")
@@ -49,4 +56,5 @@ func main(){
 		}
 		fmt.Println(m)
 	}
+
 }
